@@ -4,6 +4,18 @@
     background-color: orange;
 }
 
+nav {
+    background-color: green;
+}
+
+.bg-color-main-title {
+    background-color: white;
+}
+
+.bg-color-hero-image {
+    background-color: white;
+}
+
 /*---------------------------------------------------------------------Layout*/
 
 html, body {
@@ -15,6 +27,27 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+/*---------------------------------------------------------------------Header*/
+
+#navlogo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+
+#navbarNavDropdown ul {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+}
+
+#navbarNavDropdown ul li a{
+    padding: 0 20px;
+    color: white;
+}
+
 
 /*---------------------------------------------------------------------Index.html*/
 
@@ -31,11 +64,11 @@ html, body {
 }
 
 .heroimage {
-    text-align: center;
+    padding-top: 120px;
 }
 
 .heroimage img {
-    width: 50%;
+    max-width: 100%;
     height: auto;
 }
 
