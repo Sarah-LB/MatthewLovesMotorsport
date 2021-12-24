@@ -16,6 +16,18 @@ nav {
     background-color: white;
 }
 
+.bg-color-intro {
+    background-color: white;
+}
+
+.bg-color-footer {
+    background-color: green;
+}
+
+.bg-color-main-gt4 {
+    background-color: white;
+}
+
 /*---------------------------------------------------------------------Layout*/
 
 html, body {
@@ -36,18 +48,18 @@ html, body {
     width: 250px;
     text-align: center;
     color: white;
+    letter-spacing: 2px;
 }
 
 #navbarNavDropdown ul {
     font-family: 'Assistant', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #navbarNavDropdown ul li a{
-    padding: 0 20px;
+    padding: 0 25px;
     color: white;
 }
-
 
 /*---------------------------------------------------------------------Index.html*/
 
@@ -55,6 +67,7 @@ html, body {
     font-family: 'Shadows Into Light', cursive;
     font-size: 100px;
     text-align: center;
+    padding: 20px 0;
 }
 
 .crashbanner h2 {
@@ -65,14 +78,84 @@ html, body {
 
 .heroimage {
     padding-top: 120px;
+    text-align: center;
+    width: 100%;
 }
 
 .heroimage img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
+}
+
+.gt4image img {
+    max-width: 100%;
+    padding: 120px 0 30px 0;
 }
 
 .crashbanner img {
     max-width: 100%;
     height: auto;
 }
+
+.introtext {
+    height: 100px;
+}
+
+.introtext p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+/*---------------------------------------------------------------------gt4.html*/
+
+.maingt4content {
+    padding-top: 120px;
+}
+
+.maingt4content h4 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 33px;
+    text-align: center;
+    color: black;
+}
+
+.maingt4content p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    color: black;
+    padding: 20px 0 0 60px;
+}
+
+
+.maingt4content ul li {
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    color: black;
+    list-style-type: none;
+}
+
+.maingt4content ul li i {
+    color: orange;
+    padding: 20px;
+}
+
+/*---------------------------------------------------------------------Footer.html*/
+
+.f1footer{
+    color: white;
+    font-size: 20px;
+}
+
+.f1footer h3 {
+    font-family: 'Shadows Into Light', cursive;
+    padding-left: 20px;
+}
+
+.f1footer h5 {
+    font-family: 'Assistant', sans-serif;
+}
+
