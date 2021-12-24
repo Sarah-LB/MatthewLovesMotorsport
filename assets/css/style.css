@@ -1,0 +1,45 @@
+/*---------------------------------------------------------------------Colors*/
+
+.bg-color-crash {
+    background-color: orange;
+}
+
+/*---------------------------------------------------------------------Layout*/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.mainf1content {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------------------------------------------Index.html*/
+
+.maintitle h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+.crashbanner h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 66px;
+    text-align: center;
+}
+
+.heroimage {
+    text-align: center;
+}
+
+.heroimage img {
+    width: 50%;
+    height: auto;
+}
+
+.crashbanner img {
+    max-width: 100%;
+    height: auto;
+}
