@@ -28,6 +28,14 @@ nav {
     background-color: white;
 }
 
+.bg-color-main-drag {
+    background-color: white;
+}
+
+.bg-color-main-drag {
+    background-color: orange;
+}
+
 /*---------------------------------------------------------------------Layout*/
 
 html, body {
@@ -142,6 +150,21 @@ html, body {
     color: orange;
     padding: 20px;
 }
+
+/*---------------------------------------------------------------------Drag.html*/
+
+.maindragheader h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 33px;
+    text-align: center;
+    color: black;
+}
+
+.maindragimage img {
+    text-align: center;
+}
+
+
 
 /*---------------------------------------------------------------------Footer.html*/
 
